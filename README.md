@@ -15,7 +15,7 @@ A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism**
 * ## 📱 Interface Preview
 
 ### Desktop View
-![Desktop Preview](desktop-ss.png)
+![Desktop Preview](descktop-ss.png)
 
 ### Mobile View
 ![Mobile Preview](mobile-ss.jfif)
