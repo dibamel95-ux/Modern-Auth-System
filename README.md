@@ -14,7 +14,7 @@ A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism**
 * **GitHub Pages:** For live hosting.
 * 
 ## 🚀 Live Demo
-You can view the live project here: [Insert Your GitHub Pages Link Here]
+You can view the live project here: [[Insert Your GitHub Pages Link Here](https://dibamel95-ux.github.io/Modern-Auth-System/)]
 
 ---
-*Created with ❤️ by [Your Name]*
+*Created with ❤️ by [Amel DIB]*
