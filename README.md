@@ -12,6 +12,13 @@ A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism**
 * **HTML5:** Semantic structure.
 * **CSS3:** Flexbox, Transitions, and Glassmorphism effects.
 * **GitHub Pages:** For live hosting.
+* ## 📱 Interface Preview
+
+### Desktop View
+![Desktop Preview](desktop-ss.png)
+
+### Mobile View
+![Mobile Preview](mobile-ss.png)
 * 
 ## 🚀 Live Demo
 [[Insert Your GitHub Pages Link Here](https://dibamel95-ux.github.io/Modern-Auth-System/)]
