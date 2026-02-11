@@ -8,7 +8,7 @@ body {
   padding: 0;
   overflow: hidden;
   height: 100vh;
-  background-image: url(cloud1.webp);
+  background-image: url(nature.webp);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -83,5 +83,6 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
