@@ -16,8 +16,11 @@ A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism**
 
 ### Mobile View
 #sign in page :  
+
 ![Mobile Preview](image/screen01.jfif)
+
 #sign in page : 
+
 ![Mobile Preview](image/screen02.jfif)
 
 
