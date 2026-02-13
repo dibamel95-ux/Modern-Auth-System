@@ -14,12 +14,13 @@ A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism**
 * **GitHub Pages:** For live hosting.
 * ## 📱 Interface Preview
 
-### Desktop View
-![Desktop Preview](descktop-ss.png)
-
 ### Mobile View
-![Mobile Preview](mobile-ss.jfif)
-* 
+#sign in page :  
+![Mobile Preview](screen01.jfif)
+#sign in page : 
+![Mobile Preview](screen02.jfif)
+
+
 ## 🚀 Live Demo
 [[Insert Your GitHub Pages Link Here](https://dibamel95-ux.github.io/Modern-Auth-System/)]
 
