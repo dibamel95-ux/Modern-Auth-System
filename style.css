@@ -17,7 +17,7 @@ body {
 }
 :root {
   --font-main: "Poppins", sans-serif;
-  --fs-h1: clamp(1.8rem, 5vw + 1rem, 3.5rem);
+  --fs-h1: clamp(1.8rem, 3vw + 1rem, 3.5rem);
   --fs-h2: clamp(1.5rem, 4vw + 1rem, 3rem);
   --fs-body: 1rem;
   --fs-label: 0.9rem;
@@ -131,4 +131,5 @@ body {
 .policy-check :hover {
   color: var(--clr-link-hover);
 }
+
 
