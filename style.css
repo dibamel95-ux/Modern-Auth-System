@@ -57,8 +57,9 @@ body {
   backdrop-filter: blur(15px);
   padding: var(--fluid-gap);
   border: 1px solid rgba(var(--primary-rgb), 0.2);
-  background-color: rgba(var(--primary-rgb), 0.15);
+  background-color: rgba(var(--primary-rgb), 0.1);
   font-family: var(--font-main);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2)
 }
 .container ::placeholder {
   font-size: var(--fs-body);
@@ -90,7 +91,7 @@ body {
   margin-top: var(--fluid-gap);
 }
 .form-actions .btn {
-  padding: 0.4rem 1rem;
+  padding: 0.6rem 1.5rem;
   background-color: var(--clr-link);
   color: white;
   border: none;
@@ -130,3 +131,4 @@ body {
 .policy-check :hover {
   color: var(--clr-link-hover);
 }
+
