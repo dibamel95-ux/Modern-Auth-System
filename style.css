@@ -108,12 +108,11 @@ body {
   width: 100%;
   text-align: center;
 }
-.card-footer a {
+.card-footer a:hover {
   color: var(--clr-link);
   font-size: var(--fs-label);
-  text-decoration: none;
 }
-.card-footer a:hover {
+.card-footer a {
   color: var(--clr-link-hover);
 }
 .card-footer p {
@@ -126,12 +125,12 @@ body {
   font-size: var(--fs-label);
 }
 .policy-check a {
+    color: var(--clr-link-hover);
+}
+.policy-check a:hover {
   color: var(--clr-link);
-  text-decoration: none;
 }
-.policy-check :hover {
-  color: var(--clr-link-hover);
-}
+
 
 
 
