@@ -30,8 +30,9 @@ body {
 }
 
 .signup-card {
-  display: inline-block;
-  line-height: 2rem;
+  display: block; 
+  width: 100%;
+  text-align: center;
 }
 .card-header {
   color: white;
@@ -131,5 +132,6 @@ body {
 .policy-check :hover {
   color: var(--clr-link-hover);
 }
+
 
 
