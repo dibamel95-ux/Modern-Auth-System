@@ -14,12 +14,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    font-family: "Poppins", sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 :root {
   --font-main: "Poppins", sans-serif;
-  --fs-h1: clamp(1.8rem, 3vw + 1rem, 3.5rem);
+  --fs-h1: clamp(1.8rem, 5vw + 1rem, 3.5rem);
   --fs-h2: clamp(1.5rem, 4vw + 1rem, 3rem);
   --fs-body: 1rem;
   --fs-label: 0.9rem;
@@ -32,9 +31,8 @@ body {
 }
 
 .signup-card {
-  display: block; 
-  width: 100%;
-  text-align: center;
+  display: inline-block;
+  line-height: 2rem;
 }
 .card-header {
   color: white;
@@ -58,11 +56,11 @@ body {
   gap: var(--fluid-gap);
   border-radius: 20px;
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   padding: var(--fluid-gap);
-  border: 1px solid rgba(var(--primary-rgb), 0.2);
-  background-color: rgba(var(--primary-rgb), 0.1);
-  font-family: var(--font-main);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2)
+  border: 1px solid rgba(var(--primary-rgb), 0.3);
+  background-color: rgba(var(--primary-rgb), 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 .container ::placeholder {
   font-size: var(--fs-body);
@@ -110,13 +108,14 @@ body {
   width: 100%;
   text-align: center;
 }
-.card-footer a:hover {
-  color: var(--clr-link);
-  font-size: var(--fs-label);
-}
 .card-footer a {
   color: var(--clr-link-hover);
+  font-size: var(--fs-label);
 }
+.card-footer a:hover {
+  color: var(--clr-link);
+}
+
 .card-footer p {
   font-weight: bold;
   font-size: var(--fs-label);
@@ -127,13 +126,8 @@ body {
   font-size: var(--fs-label);
 }
 .policy-check a {
-    color: var(--clr-link-hover);
+  color: var(--clr-link-hover);
 }
 .policy-check a:hover {
   color: var(--clr-link);
 }
-
-
-
-
-
