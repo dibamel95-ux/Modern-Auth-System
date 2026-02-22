@@ -14,6 +14,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+    font-family: "Poppins", sans-serif;
+
 }
 :root {
   --font-main: "Poppins", sans-serif;
@@ -130,6 +132,7 @@ body {
 .policy-check a:hover {
   color: var(--clr-link);
 }
+
 
 
 
