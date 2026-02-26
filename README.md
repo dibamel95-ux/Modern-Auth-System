@@ -1,31 +1,18 @@
-# Modern Authentication UI - Webook 🚀
+Modern Authentication UI – Dynamic Theme Switcher 🌗
+A sleek and professional Login/Sign-up interface featuring a real-time Theme Toggle (Light & Dark mode). This project focuses on modern Glassmorphism design and seamless state management using Vanilla JavaScript.
 
-A sleek and responsive Sign-Up and Login interface featuring a **Glassmorphism** design. This project was built to practice clean HTML/CSS structure and modern UI trends.
+✨ Key Features
+Interactive Theme Toggle: Seamlessly switch between Light and Dark modes using a dedicated Sun/Moon icon button.
 
-## ✨ Features
-* **Glassmorphism UI:** Modern frosted-glass effect using `backdrop-filter`.
-* **Fully Responsive:** Works perfectly on Desktop, Tablet, and Mobile devices.
-* **Clean Code:** Organized CSS with a single stylesheet for multiple pages.
-* **Optimized Performance:** Compressed assets for faster loading times.
+Glassmorphism Design: Translucent form containers with professional backdrop-blur effects that adapt to the chosen theme.
 
-## 🛠️ Technologies Used
-* **HTML5:** Semantic structure.
-* **CSS3:** Flexbox, Transitions, and Glassmorphism effects.
-* **GitHub Pages:** For live hosting.
-* ## 📱 Interface Preview
+Clean UI/UX: Minimalist layout with clear typography and high-quality background imagery (Galaxy for Dark, Clouds for Light).
 
-### Mobile View
-#sign in page :  
+Advanced Components: Includes interactive service cards with hover overlays and custom loading animations.
 
-![Mobile Preview](image/screen01.jfif)
+🛠️ Tech Stack
+HTML5: Semantic structure.
 
-#sign in page : 
+CSS3: Advanced Glassmorphism, Transitions, and Custom Properties (Variables) for theming.
 
-![Mobile Preview](image/screen02.jfif)
-
-
-## 🚀 Live Demo
-[[Insert Your GitHub Pages Link Here](https://dibamel95-ux.github.io/Modern-Auth-System/)]
-
----
-*Created with ❤️ by [Amel DIB]*
+JavaScript (Vanilla): Logic for class toggling and icon state switching.
