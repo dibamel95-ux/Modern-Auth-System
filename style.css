@@ -3,23 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100vh;
-  background-image: url(image/nature.webp);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-}
 :root {
   --font-main: "Poppins", sans-serif;
-  --fs-h1: clamp(1.8rem, 5vw + 1rem, 3.5rem);
-  --fs-h2: clamp(1.5rem, 4vw + 1rem, 3rem);
+  --fs-h1: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+  --fs-h2: clamp(1.2rem, 2.5vw + 1rem, 2rem);
   --fs-body: 1rem;
   --fs-label: 0.9rem;
   --fs-button: 1.1rem;
@@ -28,25 +15,29 @@ body {
   --fluid-gap: clamp(10px, 2vw, 40px);
   --fs-button: clamp(0.875rem, 0.5vw + 0.7rem, 1.125rem);
   --primary-rgb: 255, 255, 255;
+  --box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --bg-light-image: url(image/nature.webp);
+  --color: white;
+  --secondary-color: blue;
+}
+body.dark {
+  --bg-light-image: url(image/dark.webp);
+  --primary-rgb: 0, 0, 0;
 }
 
-.signup-card {
-  display: inline-block;
-  line-height: 2rem;
-}
-.card-header {
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  margin-bottom: var(--fluid-gap);
-}
-.card-header h1 {
-  font-size: var(--fs-h1);
-  margin-bottom: var(--fluid-gap);
-  letter-spacing: -0.002em;
-}
-.card-footer h2 {
-  font-size: var(--fs-h2);
-  letter-spacing: 0.002em;
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  background-image: var(--bg-light-image);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.6s ease-in-out;
 }
 .container {
   width: calc(100% - var(--fluid-gap));
@@ -60,11 +51,51 @@ body {
   padding: var(--fluid-gap);
   border: 1px solid rgba(var(--primary-rgb), 0.3);
   background-color: rgba(var(--primary-rgb), 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
+  color: var(--color);
 }
 .container ::placeholder {
   font-size: var(--fs-body);
 }
+
+.signup-card {
+  display: inline-block;
+  line-height: 2rem;
+}
+.card-header {
+  color: var(--color);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: var(--fluid-gap);
+}
+.card-header h1 {
+  font-size: var(--fs-h1);
+  margin-bottom: var(--fluid-gap);
+  letter-spacing: -0.002em;
+}
+.header-bis {
+  display: flex;
+  justify-content: space-between;
+}
+#toggle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(var(--primary-rgb), 0.2);
+  color: var(--color);
+  box-shadow: 0 0 14px rgba(149, 150, 221, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+#toggle:hover {
+  background-color: var(--color);
+  color: var(--secondary-color);
+}
+.card-footer h2 {
+  font-size: var(--fs-h2);
+  letter-spacing: 0.002em;
+}
+
 .form-content {
   display: flex;
   flex-direction: column;
@@ -76,13 +107,19 @@ body {
   width: 100%;
   padding: 0.5rem var(--fluid-gap);
   border: none;
+  background-color: rgba(var(--primary-rgb), 0.2);
+  color: var(--color);
   font-size: var(--fs-button);
+}
+.form-content input::placeholder {
+  color: var(--color);
+  font-size: var(--fs-label);
 }
 .form-content input:focus {
   outline: none;
   border: 2px solid #007bff;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.3);
   transition: 0.3s;
 }
 .form-actions {
@@ -93,15 +130,16 @@ body {
 }
 .form-actions .btn {
   padding: 0.6rem 1.5rem;
-  background-color: var(--clr-link);
-  color: white;
+  background-color: rgba(var(--primary-rgb), 0.2);
+  color: var(--color);
   border: none;
   font-size: var(--fs-button);
   box-shadow: 0 0 14px rgba(149, 150, 221, 0.8);
+  transition: all 0.4s ease-in-out;
 }
 .form-actions .btn:hover {
   background-color: var(--clr-link-hover);
-  color: blue;
+  color: var(--secondary-color);
 }
 .card-footer {
   margin: 1rem;
@@ -109,20 +147,20 @@ body {
   text-align: center;
 }
 .card-footer a {
-  color: var(--clr-link-hover);
+  color: var(--clr-link);
   font-size: var(--fs-label);
 }
 .card-footer a:hover {
-  color: var(--clr-link);
+  color: var(--clr-link-hover);
 }
 
 .card-footer p {
   font-weight: bold;
   font-size: var(--fs-label);
-  color: white;
+  color: var(--color);
 }
 .policy-check {
-  color: white;
+  color: var(--color);
   font-size: var(--fs-label);
 }
 .policy-check a {
