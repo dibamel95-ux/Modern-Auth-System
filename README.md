@@ -1,7 +1,9 @@
 ***Modern Authentication UI – Dynamic Theme Switcher***
+
 A sleek and professional Login/Sign-up interface featuring a real-time Theme Toggle (Light & Dark mode). This project focuses on modern Glassmorphism design and seamless state management using Vanilla JavaScript.
 
 ***✨ Key Features***
+
 Interactive Theme Toggle: Seamlessly switch between Light and Dark modes using a dedicated Sun/Moon icon button.
 
 Glassmorphism Design: Translucent form containers with professional backdrop-blur effects that adapt to the chosen theme.
